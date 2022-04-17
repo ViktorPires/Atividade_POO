@@ -1,0 +1,65 @@
+const Aviao = require('./aviao')
+
+let F22 = new Aviao("Lockheed Martin", "Estados Unidos", "F22 Raptor", "1996", "2x turbofans Pratt & Whitney F119-PW-100", 2400, "Militar", 8);
+let Su57= new Aviao("Sukhoi", "Rússia", "Su-57", "2009", "2x turbofans vetorados de pós-combustão NPO Saturn izdeliye 117", 2100, "Militar", 10);
+let Boeing737 = new Aviao("Boeing", "Estados Unidos", "737", "1968", "CFM International CFM56", 850, "Civil", 0);
+let SuperTucano = new Aviao("Embraer", "Brasil", "EMB-314", "2004", "1 turboélice Pratt & Whitney Canada PT6A-68C", 600, "Militar", 4);
+
+F22.descrever();
+F22.ligar();
+F22.acelerar();
+F22.acelerar();
+F22.acelerar();
+F22.decolar();
+F22.subir();
+F22.acelerar();
+F22.acelerar();
+F22.situacao();
+F22.subir();
+F22.acelerar();
+F22.acelerar();
+F22.situacao();
+F22.acelerar();
+F22.acelerar();
+F22.situacao();
+F22.subir();
+F22.subir();
+F22.situacao();
+F22.subir();
+F22.subir();
+F22.subir();
+F22.situacao();
+F22.mirar();
+F22.disparar();
+F22.situacao();
+F22.acelerar();
+F22.acelerar();
+F22.situacao();
+F22.desacelerar();
+F22.descer();
+F22.desacelerar();
+F22.descer();
+F22.desacelerar();
+F22.descer();
+F22.desacelerar();
+F22.descer();
+F22.situacao();
+F22.descer();
+F22.desacelerar();
+F22.descer();
+F22.desacelerar();
+F22.pousar();
+F22.descer();
+F22.desacelerar();
+F22.situacao();
+F22.desacelerar();
+F22.situacao();
+F22.pousar();
+F22.frear();
+F22.frear();
+F22.frear();
+F22.desligar();
+F22.reabastecer();
+F22.situacao();
+
+
